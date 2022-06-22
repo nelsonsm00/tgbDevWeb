@@ -1,0 +1,116 @@
+/* FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+.palavra {
+    display: flex;
+}
+
+.letra {
+    display: flex;
+    border: 3px solid #000;
+    width: 40%;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial';
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0.25rem;
+}
+
+.correta {
+    background-color: #21be21 !important;
+}
+
+.posicaoCorreta {
+    background-color: #fffb04 !important;
+}
+
+.naoExiste {
+    background-color: #999999 !important;
+}
+
+.naoDigitado {
+    background-color: #e2dede !important;
+}
+
+.linhaTeclado {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecla {
+    min-width: 10%;
+}
+
+.btn, .btn:hover {
+    min-width: 10%;
+    font-family: Prompt !important;
+    margin: 5px;
+    color: #000 !important;
+    border: none !important;
+    font-weight: bold;
+}
+
+.operacao {
+    letter-spacing: 5px;
+    width: 100%;
+    background-color: #ffffff !important;
+}
+
+.operacao:hover {
+    background-color: #b8b3b3 !important;
+}
+
+.cancelar {
+    letter-spacing: 5px;
+    width: 50%;
+    background-color: #c00101 !important;
+}
+
+.novo {
+    letter-spacing: 5px;
+    width: 50%;
+    background-color: #07c201 !important;
+}
+
+.modal-footer {
+    flex-wrap: inherit;
+}
+
+.principal {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #5a14ffbb;
+}
+
+.titulo h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Prompt !important;
+    border-bottom: #000 1px dotted;
+}
+
+@keyframes rownope {
+    10%  { transform: translateX(-14px); }
+    20%  { transform: translateX(14px); }
+    30%  { transform: translateX(-8px); }
+    40%  { transform: translateX(8px); }
+    50%  { transform: translateX(-4px); }
+    60%  { transform: translateX(4px); }
+    70%  { transform: translateX(-2px); }
+    80%  { transform: translateX(2px); }
+    90%  { transform: translateX(-1px); }
+    100% { transform: translateX(1px); }
+}
+
+
